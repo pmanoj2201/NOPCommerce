@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T18:55:26 GMT-04:00" name="NOPTestSuite" finished-at="2023-07-02T18:55:49 GMT-04:00" duration-ms="23237">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistration.test_AccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@45099dd3]" name="test_AccountRegistration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_003_Logout.test_Logout()[pri:0, instance:testCases.TC_003_Logout@1a6d8329]" name="test_Logout" class="testCases.TC_003_Logout"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@368247b9]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.test_AccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@45099dd3]" name="test_AccountRegistration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@368247b9]" name="test_Login" class="testCases.TC_002_Login"/>
+        <method signature="TC_003_Logout.test_Logout()[pri:0, instance:testCases.TC_003_Logout@1a6d8329]" name="test_Logout" class="testCases.TC_003_Logout"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2023-07-02T18:55:26 GMT-04:00" name=" NOP Tests" finished-at="2023-07-02T18:55:49 GMT-04:00" duration-ms="23237">
+      <class name="testCases.TC_003_Logout">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_Logout@1a6d8329]" started-at="2023-07-02T18:55:42 GMT-04:00" name="setup" finished-at="2023-07-02T18:55:43 GMT-04:00" duration-ms="1340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Logout()[pri:0, instance:testCases.TC_003_Logout@1a6d8329]" started-at="2023-07-02T18:55:43 GMT-04:00" name="test_Logout" finished-at="2023-07-02T18:55:49 GMT-04:00" duration-ms="5690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_Logout@1a6d8329]" started-at="2023-07-02T18:55:49 GMT-04:00" name="teardown" finished-at="2023-07-02T18:55:49 GMT-04:00" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_003_Logout -->
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@368247b9]" started-at="2023-07-02T18:55:36 GMT-04:00" name="setup" finished-at="2023-07-02T18:55:37 GMT-04:00" duration-ms="1460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@368247b9]" started-at="2023-07-02T18:55:37 GMT-04:00" name="test_Login" finished-at="2023-07-02T18:55:42 GMT-04:00" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_Login@368247b9]" started-at="2023-07-02T18:55:42 GMT-04:00" name="teardown" finished-at="2023-07-02T18:55:42 GMT-04:00" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@45099dd3]" started-at="2023-07-02T18:55:27 GMT-04:00" name="setup" finished-at="2023-07-02T18:55:31 GMT-04:00" duration-ms="4318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_AccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistration@45099dd3]" started-at="2023-07-02T18:55:31 GMT-04:00" name="test_AccountRegistration" finished-at="2023-07-02T18:55:36 GMT-04:00" duration-ms="4471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AccountRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistration@45099dd3]" started-at="2023-07-02T18:55:36 GMT-04:00" name="teardown" finished-at="2023-07-02T18:55:36 GMT-04:00" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!--  NOP Tests -->
+  </suite> <!-- NOPTestSuite -->
+</testng-results>
