@@ -341,3 +341,29 @@
 18:58:00.137 [main] INFO  testCases.TC_003_Logout - logout link clicked..
 18:58:00.186 [main] INFO  testCases.TC_003_Logout - Logout after login success..
 18:58:00.186 [main] INFO  testCases.TC_003_Logout - TC_003_Logout finished..
+15:06:53.869 [main] INFO  testCases.TC_001_AccountRegistration - chrome browser launched..
+15:06:53.919 [main] INFO  testCases.TC_001_AccountRegistration - started TC_001_AccountRegistration..
+15:06:55.291 [main] INFO  testCases.TC_001_AccountRegistration - homePage displayed..
+15:06:56.350 [main] INFO  testCases.TC_001_AccountRegistration - Register Clicked..
+15:06:56.543 [main] INFO  testCases.TC_001_AccountRegistration - provided first name..
+15:06:56.713 [main] INFO  testCases.TC_001_AccountRegistration - provided last name..
+15:06:56.911 [main] INFO  testCases.TC_001_AccountRegistration - provided email..
+15:06:57.084 [main] INFO  testCases.TC_001_AccountRegistration - provided password..
+15:06:57.251 [main] INFO  testCases.TC_001_AccountRegistration - provided confirm password..
+15:06:57.861 [main] INFO  testCases.TC_001_AccountRegistration - clicked Register Button..
+15:06:57.919 [main] INFO  testCases.TC_001_AccountRegistration - Account Registration success..
+15:06:57.923 [main] INFO  testCases.TC_001_AccountRegistration - TC_001_AccountRegistration finished..
+15:07:00.329 [main] INFO  testCases.TC_002_Login - chrome browser launched..
+15:07:00.343 [main] INFO  testCases.TC_002_Login - started TC_002_Login..
+15:07:02.549 [main] INFO  testCases.TC_002_Login - login clicked..
+15:07:02.786 [main] INFO  testCases.TC_002_Login - provided email
+15:07:03.002 [main] INFO  testCases.TC_002_Login - provided password
+15:07:03.300 [main] INFO  testCases.TC_002_Login - login clicked
+15:07:16.340 [main] INFO  testCases.TC_003_Logout - chrome browser launched..
+15:07:16.359 [main] INFO  testCases.TC_003_Logout - started TC_003_Logout..
+15:07:18.530 [main] INFO  testCases.TC_003_Logout - login link clicked..
+15:07:18.796 [main] INFO  testCases.TC_003_Logout - provided email
+15:07:18.961 [main] INFO  testCases.TC_003_Logout - provided password
+15:07:19.273 [main] INFO  testCases.TC_003_Logout - login button clicked..
+15:07:20.512 [main] INFO  testCases.TC_003_Logout - search button clicked..
+15:07:30.590 [main] INFO  testCases.TC_003_Logout - test failed..

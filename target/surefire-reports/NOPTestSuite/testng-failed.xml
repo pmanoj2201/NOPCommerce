@@ -7,13 +7,6 @@
   <test thread-count="5" name=" NOP Tests(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_Logout">
-        <methods>
-          <include name="teardown"/>
-          <include name="test_Logout"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_Logout -->
       <class name="testCases.TC_002_Login">
         <methods>
           <include name="teardown"/>
@@ -21,6 +14,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_003_Logout">
+        <methods>
+          <include name="teardown"/>
+          <include name="test_Logout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_003_Logout -->
     </classes>
   </test> <!--  NOP Tests(failed) -->
 </suite> <!-- Failed suite [NOPTestSuite] -->
